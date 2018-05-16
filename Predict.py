@@ -42,16 +42,3 @@ def predict(glove_model, input):
         return predict_class
 
 
-glove_model = load_glove_model()
-class_predict1 = predict(glove_model, "عاوز اصحى الساعة بكرة 6")
-class_predict2 = predict(glove_model, "افتحلي فيسبوك")
-class_predict3 = predict(glove_model, "اتصلي بمحمد عاطف")
-class_predict4 = predict(glove_model, "ابعت رسالة اخويا يجيب ايس كريم وهو جاي")
-class_predict5 = predict(glove_model, "فكرنى اشترى طلبات الأسبوع")
-class_predict6 = predict(glove_model, "سمعنى اغنية لمنير")
-print("Predicted_Class: ", class_predict1)
-print("Predicted_Class: ", class_predict2)
-print("Predicted_Class: ", class_predict3)
-print("Predicted_Class: ", class_predict4)
-print("Predicted_Class: ", class_predict5)
-print("Predicted_Class: ", class_predict6)
